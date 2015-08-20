@@ -84,7 +84,7 @@ class notify_when_finished(object):
 
     def _build_and_send_message(self, message, default):
         if callable(message):
-            message = message
+            message = message()
         if message is None:
             message = default
         notify(message, self.hook, self.channel)
