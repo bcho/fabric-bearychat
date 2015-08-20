@@ -42,6 +42,12 @@ def cool_task_that_fails():
   pass
 ```
 
+## Installation
+
+```bash
+pip install fabric-bearychat
+```
+
 
 
 ## LICENSE
